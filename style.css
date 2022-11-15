@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    min-height: 100vh;
+    max-height: auto;
+    font-family: sans-serif;
+    background-color: rgb(185, 215, 236);
+}
+#bg-img{
+    width: 100%;
+    height: 50vh;
+}
+#bg-img img{
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#content{
+    width: 100%;
+    min-height: 50vh;
+    max-height: max-content;
+    background-color: rgb(185, 215, 236);
+    margin: 0;
+    padding: 0;
+    justify-content: space-around;
+}
+#title{
+    position: absolute;
+    top: 3%;
+    left: 2%;
+    background-color: transparent;
+    color: #04111d;
+    font-weight: 500;
+    font-size: larger;
+}
+#about{
+    position: absolute;
+    top: 40%;
+    text-align: center;
+    text-transform: capitalize;
+    font-size: large;
+    font-weight: 700;
+    color:darkblue;
+    width: 95%;
+    padding: 0.2em;
+}
+.card{
+    height: 100%;
+}
+.row{
+    row-gap: 2em;
+    margin: 0;
+    padding: 0;
+}
+.card-img-top{
+    width: 100%;
+    height: 70%;
+}
+.card-body{
+    min-height: 30%;
+    background-color:rgb(231, 182, 182);
+    line-height: 2.3;
+    background-image: url("./subtle-prism.svg");
+}
+#content{
+    text-transform: capitalize;
+}
+#content .col{
+    height: 19em;
+    margin: 0;
+    text-align: center;
+}
+.heading{
+    width: 100%;
+    margin: 0 auto;
+    margin: 1% 0;
+    padding: 1em 0;
+    text-align: center;
+    background-color: #b9d7ec;
+}
+.stylespan{
+    font-size: medium;
+    font-weight: 500;
+}
+.card-title{
+    font-size: larger;
+    font-weight: 700;
+    color: #ffff;
+}
+.card-title span{
+   color: #04111d;
+   font-weight: 500;
+   font-size: medium;
+}
+.home-button{
+    width: 80px;
+    height: 40px;
+    margin-top: 1em;
+    border-radius: 10px;
+    background-color: darkblue;
+    color: #ffff;
+    font-weight: 500;
+    position: fixed;
+    top: 0;
+    left: 0.8em;
+}
+#species-card{
+    height: 5em;
+}
+.species-color{
+    color: #ffff;
+}
+@media screen and (max-width: 600px){
+    .heading{
+        margin-top: 2em;
+    }
+    .card-body{
+        line-height: 1.7;
+    }
+}
